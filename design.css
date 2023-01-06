@@ -20,6 +20,7 @@ label.logo{
     margin-top: 60px;
     line-height: 80px;
     padding: 0 100px;
+    margin-left: -52px;
     font-weight: bold;
 }
 nav ul{
@@ -44,15 +45,17 @@ a.active,a:hover{
 }
 .icon {
     color: antiquewhite;
-    /* display: none; */
+    display: none;
     float: right;
     line-height: 90px;
     margin: 0px 6px;
     cursor: pointer;
     font-size: 30px
 }
-@media (max-width: 1024px){
-    
+@media (max-width: 320px){
+    .icon{
+        display: block;
+    } 
 }
 
 
