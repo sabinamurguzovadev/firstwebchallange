@@ -30,7 +30,7 @@ nav ul li{
     margin: 0 5px;
     display: inline-block;
     line-height: 80px;
-    font-size: 20px;
+    font-size: 25px;
 }
 nav ul li a{
     color: aliceblue;
@@ -42,3 +42,17 @@ a.active,a:hover{
     transform: .5s;
     background: rgb(95, 34, 110)
 }
+.icon {
+    color: antiquewhite;
+    /* display: none; */
+    float: right;
+    line-height: 90px;
+    margin: 0px 6px;
+    cursor: pointer;
+    font-size: 30px
+}
+@media (max-width: 1024px){
+    
+}
+
+
