@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 ul li {
     list-style: none;
 }
@@ -22,27 +23,40 @@ body {
 
 .haeder-head-container {
     display: flex;
+    position: relative;
     justify-content: space-between;
     height: 10vh;
     width: 100%;
     background-color: rgb(134, 33, 155);
 }
+label i{
+    position: absolute;
+    top: 60px;
+    right: 0;
+    color: black;
+    display: block !important;
+}
+
 .ul-list {
     display: flex;
     margin-top: 39px;
     gap: 25px;
 }
-.uil-multiply{
+
+.uil-multiply {
     color: white;
     display: none;
 }
-.uil-list-ul{
+
+.uil-list-ul {
     color: white;
     display: none;
 }
-#check-id{
+
+#check-id {
     display: none;
 }
+
 .ul-list a {
     font-family: Capriola;
     font-size: 20px;
@@ -51,24 +65,28 @@ body {
     letter-spacing: 0em;
     text-align: center;
     color: white;
-    
+    margin-right: 20px;
+
 }
 
-.user-icon .fa-user{
+.user-icon .fa-user {
     color: white;
     font-size: 40px;
     opacity: 0.8;
 
 }
-.user-icon{
+
+.user-icon {
     margin-right: 50px;
     margin-top: 25px;
 }
-.logo-h2{
+
+.logo-h2 {
     margin-top: 25px;
     margin-left: 50px;
 }
-.logo-h2 h2{
+
+.logo-h2 h2 {
     color: white;
     font-size: 160%;
 }
